@@ -1,0 +1,1 @@
+export const getDetails = () => fetch('http://localhost:5000/details').then(res => res.json())
